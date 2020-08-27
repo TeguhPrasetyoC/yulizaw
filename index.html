@@ -7,6 +7,8 @@
         <meta name="description" content="Final Project Phase 0 Kampus Pondok Indah Hacktiv8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="./Assets/favicon.jpg">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
         <link type="text/css" rel="stylesheet" href="./style.css">
         <title>Do-It-Ku .:. Your Trusted Budgetting Web</title>
@@ -15,7 +17,8 @@
         <div id='bgm'>
             <!-- jaga jaga kalau musik tidak autoplay di chrome -->
             <!-- <iframe src="silence.mp3" allow="autoplay" id="audio"></iframe>  -->
-            <audio src="./Assets/Astroblk - Nothing really matters that much to me anymore.mp3 - Nothing really matters that much to me anymore.mp3" autoplay loop type="audio/mp3" >
+            <audio autoplay loop type="audio/mp3" >
+                <source src="./Assets/Astroblk - Nothing really matters that much to me anymore.mp3 - Nothing really matters that much to me anymore.mp3">
             </audio>
         </div>
     	        
@@ -54,7 +57,8 @@
                     </select>
                     <input type="text" class="add__description" placeholder="Add description">
                     <input type="number" class="add__value" placeholder="Value">
-                    <button class="add__btn"><img src="./Assets/submitbtn.png" width = '30px'></button>
+                    <!-- <button class="add__btn"><img src="./Assets/submitbtn.png" width = '30px'></button> -->
+                    <button class="add__btn"><i class="ion-ios-checkmark-outline"></i></button>
                 </div>
             </div>
             
