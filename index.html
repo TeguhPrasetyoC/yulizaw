@@ -16,10 +16,11 @@
     <body>
         <div id='bgm'>
             <!-- jaga jaga kalau musik tidak autoplay di chrome -->
-            <!-- <iframe src="silence.mp3" allow="autoplay" id="audio"></iframe>  -->
-            <audio autoplay loop type="audio/mp3" >
-                <source src="./Assets/Astroblk - Nothing really matters that much to me anymore.mp3">
+            <iframe src="./Assets/bgm.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+            <audio id="player" autoplay loop>
+                <source src="./Assets/bgm.mp3" type="audio/mp3">
             </audio>
+            
         </div>
     	        
         <div class="top">

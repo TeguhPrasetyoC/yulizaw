@@ -1,4 +1,5 @@
 // BUDGET CONTROLLER
+alert("Halo Gaess,\nBiar berasa lagunya,disarankan Pakai Mozzilla\n \nPETUNJUK: \nSilahkan untuk Memasukan Pendapatan Anda dengan tanda  +,\nUntuk pengeluaran dengan tanda -,\njika kamu ingin menghapus item yang sudah dimasukkan,kamu dapat menekan tombol (x) di sebelah kanan item yang ingin kamu hapus (slide)\n \nMARI MENJADI KAYA !!!")
 var budgetController = (function() {
     
     var Expense = function(id, description, value) {
